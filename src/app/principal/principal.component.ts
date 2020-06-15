@@ -18,8 +18,16 @@ export class PrincipalComponent implements OnInit {
   ngOnInit() {
   }
   metodoClick(){
-    this.materia+="boton agregando";
+    
+    if(this.mensajeBoton=="ya se agrego"){
+      window.alert("ya se agrego");
+      return;
+    }
+    else
+    {
+      this.materia+="boton agregando";
     this.mensajeBoton="ya se agrego";
+    }
 
 
   }
