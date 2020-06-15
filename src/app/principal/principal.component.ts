@@ -9,6 +9,7 @@ export class PrincipalComponent implements OnInit {
 
   materia="PAVII";
   validador=true;
+  imagen1='https://www.frc.utn.edu.ar/imagenes/logoutn.gif';
   constructor() { }
   
 
