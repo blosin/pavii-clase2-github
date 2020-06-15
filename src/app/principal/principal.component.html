@@ -2,4 +2,7 @@
 "el validador es {{validador}} por lo tando la materia es:" 
 </p>
 <h1 *ngIf="validador">la siguiente: {{materia}}</h1>
-<img [src]='imagen1/>
+<img [src]='imagen1'/>
+<img src={{imagen1}}/>
+<p [style.color]='color' >Otro PArrafo</p>
+<input type="button" value={{mensajeBoton}} class="btn btn-primary" (click)='metodoClick()'/>
