@@ -13,6 +13,8 @@ import {RouterModule} from '@angular/router';
   RouterModule.forRoot([
     {path:'pagina1', component:Pagina1Component},
     {path:'pagina2', component:Pagina2Component},
+    {path:'pagina2/:parametro1', component:Pagina2Component},
+    {path:'pagina2/:parametro1/:parametro2', component:Pagina2Component},
     
   ]) 
   ],

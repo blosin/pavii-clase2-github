@@ -6,12 +6,13 @@
 <img src={{imagen1}}/>
 <p [style.color]='color' >Otro PArrafo</p>
 <input type="button" value={{mensajeBoton}} class="btn btn-primary" (click)='metodoClick()'/>
-<a [routerLink]="['pagina1']">
+<a [routerLink]="['/pagina1']">
 <input type="button" value='pagina1' class="btn btn-primary" />
 </a>
-<a [routerLink]="['pagina2']">
+<a [routerLink]="['/pagina2']">
 <input type="button" value="pagina2" class="btn btn-primary" />
 </a>
+
 <div class="container">
   <router-outlet></router-outlet>
 </div>
