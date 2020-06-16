@@ -13,7 +13,7 @@ export class Pagina2Component implements OnInit {
   constructor(private route:ActivatedRoute) { }
 
   ngOnInit() {
-    this.parametro= this.route.snapshot.paramMap.get("parametro1");
+    this.parametro1= this.route.snapshot.paramMap.get("parametro1");
 
   }
 

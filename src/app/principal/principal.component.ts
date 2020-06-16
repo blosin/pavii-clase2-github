@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class PrincipalComponent implements OnInit {
 
   materia="PAVII";
+  parametro1="PAVII";
   validador=true;
   mensajeBoton="Agregar";
   imagen1='https://www.frc.utn.edu.ar/imagenes/logoutn.gif';
