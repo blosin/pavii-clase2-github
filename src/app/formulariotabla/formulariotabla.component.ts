@@ -19,7 +19,7 @@ export class FormulariotablaComponent implements OnInit {
     })
   }
   grabar(){
-  articulos
+  articulos.push({ id: Number(this.fg.value.id), nombre: this.fg.value.nombre });
 }
 }
 /*Agregar los importa
