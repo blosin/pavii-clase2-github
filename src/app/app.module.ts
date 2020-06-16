@@ -7,6 +7,7 @@ import { PrincipalComponent } from './principal/principal.component';
 import { Pagina1Component } from './pagina1/pagina1.component';
 import { Pagina2Component } from './pagina2/pagina2.component';
 import {RouterModule} from '@angular/router';
+import { FormulariotablaComponent } from './formulariotabla/formulariotabla.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule,
@@ -18,7 +19,7 @@ import {RouterModule} from '@angular/router';
     
   ]) 
   ],
-  declarations: [ MenuComponent, PrincipalComponent, Pagina1Component, Pagina2Component ],
+  declarations: [ MenuComponent, PrincipalComponent, Pagina1Component, Pagina2Component, FormulariotablaComponent ],
   bootstrap:    [ PrincipalComponent ]
 })
 export class AppModule { }
