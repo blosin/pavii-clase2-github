@@ -13,6 +13,7 @@ import {RouterModule} from '@angular/router';
   RouterModule.forRoot([
     {path:'pagina1', component:Pagina1Component},
     {path:'pagina2', component:Pagina2Component},
+    
   ]) 
   ],
   declarations: [ MenuComponent, PrincipalComponent, Pagina1Component, Pagina2Component ],
