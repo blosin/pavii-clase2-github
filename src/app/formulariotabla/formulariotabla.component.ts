@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {FormBuilder, Validators, FormGroup, FormsModule} from '@angular/forms';
+import {articulos} from '../models/articulos'
 @Component({
   selector: 'app-formulariotabla',
   templateUrl: './formulariotabla.component.html',
@@ -18,7 +19,7 @@ export class FormulariotablaComponent implements OnInit {
     })
   }
   grabar(){
-  
+  articulos
 }
 }
 /*Agregar los importa

@@ -8,6 +8,7 @@ import { Pagina1Component } from './pagina1/pagina1.component';
 import { Pagina2Component } from './pagina2/pagina2.component';
 import {RouterModule} from '@angular/router';
 import { FormulariotablaComponent } from './formulariotabla/formulariotabla.component';
+import { GrillaDeArticulosComponent } from './grilla-de-articulos/grilla-de-articulos.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule,
@@ -19,7 +20,7 @@ import { FormulariotablaComponent } from './formulariotabla/formulariotabla.comp
     
   ]) 
   ],
-  declarations: [ MenuComponent, PrincipalComponent, Pagina1Component, Pagina2Component, FormulariotablaComponent ],
+  declarations: [ MenuComponent, PrincipalComponent, Pagina1Component, Pagina2Component, FormulariotablaComponent, GrillaDeArticulosComponent ],
   bootstrap:    [ PrincipalComponent ]
 })
 export class AppModule { }
