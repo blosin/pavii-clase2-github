@@ -4,10 +4,12 @@ import { FormsModule } from '@angular/forms';
 
 import { MenuComponent } from './menu/menu.component';
 import { PrincipalComponent } from './principal/principal.component';
+import { Pagina1Component } from './pagina1/pagina1.component';
+import { Pagina2Component } from './pagina2/pagina2.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ MenuComponent, PrincipalComponent ],
+  declarations: [ MenuComponent, PrincipalComponent, Pagina1Component, Pagina2Component ],
   bootstrap:    [ PrincipalComponent ]
 })
 export class AppModule { }
