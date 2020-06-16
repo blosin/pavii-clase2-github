@@ -8,12 +8,12 @@ import {ActivatedRoute} from '@angular/router';
 })
 export class Pagina2Component implements OnInit {
 
-  parametro1:string;
+  parametro:string;
   
   constructor(private route:ActivatedRoute) { }
 
   ngOnInit() {
-    this.parametro1= this.route.snapshot.paramMap.get("parametro1");
+    this.parametro= this.route.snapshot.paramMap.get("parametro1");
 
   }
 
