@@ -6,9 +6,15 @@ import { MenuComponent } from './menu/menu.component';
 import { PrincipalComponent } from './principal/principal.component';
 import { Pagina1Component } from './pagina1/pagina1.component';
 import { Pagina2Component } from './pagina2/pagina2.component';
+import {RouterModule} from '@angular/router';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ],
+  imports:      [ BrowserModule, FormsModule,
+  RouterModule.forRoot([
+    {},
+    {},
+  ]) 
+  ],
   declarations: [ MenuComponent, PrincipalComponent, Pagina1Component, Pagina2Component ],
   bootstrap:    [ PrincipalComponent ]
 })
