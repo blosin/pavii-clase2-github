@@ -13,13 +13,16 @@ export class FormulariotablaComponent implements OnInit {
 
   ngOnInit() {
     this.fg = this.fb.group({
-      idArticulo: [''],
+      id: [''],
       nombre:['']
     })
   }
-
+  grabar(){
+  
+}
 }
 /*Agregar los importa
 constructor
 fg atributo
 ng onnitit*/
+
