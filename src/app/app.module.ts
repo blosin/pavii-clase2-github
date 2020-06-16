@@ -18,6 +18,7 @@ import { GrillaDeArticulosComponent } from './grilla-de-articulos/grilla-de-arti
     {path:'pagina2/:parametro1', component:Pagina2Component},
     {path:'pagina2/:parametro1/:parametro2', component:Pagina2Component},
     
+    
   ]) 
   ],
   declarations: [ MenuComponent, PrincipalComponent, Pagina1Component, Pagina2Component, FormulariotablaComponent, GrillaDeArticulosComponent ],

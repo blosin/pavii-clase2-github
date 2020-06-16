@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {articulo} from '../models/articulo';
+import {articulos} from '../models/articulos';
 
 @Component({
   selector: 'app-principal',
@@ -13,10 +15,13 @@ export class PrincipalComponent implements OnInit {
   mensajeBoton="Agregar";
   imagen1='https://www.frc.utn.edu.ar/imagenes/logoutn.gif';
   color='red';
+  listaArticulos: articulo[];
   constructor() { }
+
   
 
   ngOnInit() {
+    this.listaArticulos = articulos;
   }
   metodoClick(){
     
